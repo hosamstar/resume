@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Hosam Shakir Tawfik} \\ \vspace{1pt}
+    \small +20 100 611 7728 $|$ \href{mailto:hossamcosper@gmail.com}{\underline{hossamcosper@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/hosam-shakir-63020218a/}{\underline{linkedin}} $|$
+    \href{https://github.com/hosamstar}{\underline{github.com/hosam}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Al-Azhar University}{Cairo, Egypt}
+      {BEng, Major in Systems and Computer Engineering}{Sep. 2019 - Aug. 2023}
+      % \location{ Cum. GPA: 3.83 / 4.0 \\
+    % Major GPA: 3.9 / 4.0}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Full Stack Software Engineer}{Feb 2022 -- Present}
+      {alx-africa - internship}{Nairobi County, Kenya · Remote}
+      \resumeItemListStart
+        \resumeItem{The ALX Software Engineering program helps me develop the technical capabilities and job-ready skills needed by employers as a Full Stack Software Engineer}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Front-end Developer}{Aug 2022 -- Oct 2022}
+      {Banque Misr · Internship}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Coded using HTML5, SASS, Angular to develop features for both mobile and desktop platforms.}
+        \resumeItem{Followed SDLC best practices within Agile environment to produce rapid iterations for clients.}
+        \resumeItem{Designed and updated layouts to meet usability and performance requirements.}
+        \resumeItem{Produced E-commerce website compatible with multiple browsers}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Web Developer}{Nov 2020 -- Nov 2021}
+      {IEEE Al-Azhar}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{IEEE is a student activity that aims to introduce students into the market by providing them with the essential skills for the market and train them on technical and soft skills.}
+        
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Examination Management System} $|$ \emph{Typescript, Angular, Angular Material, Spring}}{Jan 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          \resumeItemListStart
+            \resumeItem{}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: Angular, WordPress, Angular Material} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, Netbeans} \\
+     \textbf{Libraries}{: Bootstrap, jQuery, SASS, React, }
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
